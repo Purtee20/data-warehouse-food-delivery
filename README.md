@@ -1,4 +1,4 @@
-# Data Warehouse & Business Intelligence for Food Delivery Data Analysis:
+# Business Intelligence for Food Delivery Data Analysis:
 An end-to-end Data Warehouse solution for a food delivery business using **SQL**, **Python**, and **Power BI**. Designed to extract insights on delivery performance, customer behavior, and regional trends.
 
 ## 📦 Project Components:
