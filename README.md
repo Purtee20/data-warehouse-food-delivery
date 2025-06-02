@@ -32,11 +32,33 @@ Key Metrics:
 3. Power BI Dashboard:
    ![Dashboard](https://github.com/user-attachments/assets/448dde32-e4f4-4b2d-bc42-ec94bc653d11)
 
-   _<u>KPIs:</u>_ Total orders (18K), revenue ($922K), refund rate (1%).  
-   _<u>Trends:</u>_ Orders over time, regional performance, ASAP vs. scheduled deliveries.  
-   _<u>Insights:</u>_  
-    - Mountain View has the highest tip average ($3.48).  
-    - 20% of orders are ASAP → Potential for surge pricing.  
+   _<u>KPIs:</u>_  
+   - 18,000 Total Orders demonstrate the operational scale.  
+   - $922K in Revenue, reflect strong business performance.  
+   - $3.48 Average Tip, indicate the customer satisfaction.  
+   - A minimal 0.01% Refund Rate, highlight service reliability.  
+       
+   _<u>Trends & Time Analysis:</u>_  
+   - The 'Orders Over Time' graph reveals daily fluctuations. The peak visible on the 12th, aligns with a promotional campaign.  
+   - By identifying such trends, the inventory and staffing can be planned proactively & efficiently.  
+
+   _<u>Geographic & Restaurant Performance:</u>_  
+   - The 'Revenue by Restaurant' chart shows top performing restaurant outlet.  
+   - Restaurant id #63 can be observed to be leading with $40K.  
+   - The strategies of top performing outlet can therefore be replicated elsewhere.  
+     
+   _<u>Customer Behavior Insights:</u>_  
+   - The Tip Analysis section correlates average tips with order volume.  
+   - Higher tips often accompany peak hours, a cue to incentivize drivers during these times.  
+      
+   _<u>Operational Efficiency:</u>_  
+    - The 'ASAP vs. Scheduled Orders' pie chart reveals 80% of orders are scheduled.  
+    - This predictability helps optimize delivery routes and reduce costs.
+      
+   _<u>Summary:</u>_  
+   - The Visualazation via dashboard provides a roadmap to smarter decisions.  
+   - From boosting revenue in low-performing regions to rewarding the best drivers, these insights empower to act in right direction.  
+   - With real-time filters, strategies can be adapted on the fly.  
 
 ## 🚀 How to Run This Project:  
 _<u>Prerequisites:</u>_  
