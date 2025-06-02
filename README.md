@@ -78,17 +78,17 @@ Slow query performance	Added indexes on fact_orders.date_id (40% faster).
 
 ## 📂 Repository Structure:  
 data-warehouse-food-delivery/  
-├── data/                    # Sample CSV files  
+├── data/                    '# Sample CSV files  
 ├── scripts/  
-│   ├── load_data.py         # Raw data → Staging  
-│   ├── load_dw.py           # Staging → DW (optimized)  
-│   └── analysis.ipynb       # Advanced analytics  
+│   ├── load_data.py         '# Raw data → Staging  
+│   ├── load_dw.py           '# Staging → DW (optimized)  
+│   └── analysis.ipynb       '# Advanced analytics  
 ├── sql/  
-│   └── Food_Delivery_Data_Analytics.sql  # Schema + EDA queries  
+│   └── Food_Delivery_Data_Analytics.sql  '# Schema + EDA queries  
 ├── docs/  
-│   └── schema.drawio        # Schema diagram  
-├── Dashboard.pbix           # Power BI dashboard  
-└── README.md                # You are here!  
+│   └── schema.drawio        '# Schema diagram  
+├── Dashboard.pbix           '# Power BI dashboard  
+└── README.md                '# You are here!  
 
 ## 📞 Next Steps:  
 Extend This Project:  
