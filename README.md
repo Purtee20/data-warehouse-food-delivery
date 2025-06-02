@@ -32,9 +32,9 @@ Key Metrics:
 3. Power BI Dashboard:
    ![Dashboard](https://github.com/user-attachments/assets/448dde32-e4f4-4b2d-bc42-ec94bc653d11)
 
-   KPIs: Total orders (18K), revenue ($922K), refund rate (1%).  
-   Trends: Orders over time, regional performance, ASAP vs. scheduled deliveries.  
-   Insights:  
+   _<u>KPIs:</u>_ Total orders (18K), revenue ($922K), refund rate (1%).  
+   _<u>Trends:</u>_ Orders over time, regional performance, ASAP vs. scheduled deliveries.  
+   _<u>Insights:</u>_  
     - Mountain View has the highest tip average ($3.48).  
     - 20% of orders are ASAP → Potential for surge pricing.  
 
