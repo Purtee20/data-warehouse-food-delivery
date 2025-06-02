@@ -95,11 +95,8 @@ data-warehouse-food-delivery/
 ├── Dashboard.pbix                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Power BI dashboard  
 └── README.md                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # You are here!  
 
-## 📞 Next Steps:  
+## 🧑‍💻 Next Steps:  
 Extend This Project:  
 - Add real-time streaming (Kafka, Spark).  
 - Deploy to cloud (AWS RDS, Snowflake).  
-
-Connect:  
-[LinkedIn](https://www.linkedin.com/in/purtee-bhise/) | Portfolio  
 
