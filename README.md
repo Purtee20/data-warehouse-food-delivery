@@ -101,5 +101,5 @@ Extend This Project:
 - Deploy to cloud (AWS RDS, Snowflake).  
 
 Connect:  
-[LinkedIn](www.linkedin.com/in/purtee-bhise) | Portfolio  
+[LinkedIn](https://www.linkedin.com/in/purtee-bhise/) | Portfolio  
 
