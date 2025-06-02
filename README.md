@@ -24,15 +24,10 @@ Dimensions: dim_customer, dim_restaurant, dim_driver, dim_time.
 
 2. Data Warehouse  
 Optimized Queries: Indexing for performance (e.g.: CREATE INDEX idx_fact_orders_date ON fact_orders(date_id);).  
-Key Metrics:  
-sql  
--- Example: Refund rate by region  
-SELECT   
-    c.delivery_region,  
-    SUM(f.refunded) / SUM(f.order_total) AS refund_rate  
-FROM fact_orders f  
-JOIN dim_customer c ON f.customer_id = c.customer_id  
-GROUP BY c.delivery_region;  
+Key Metrics:   
+- Example: Refund rate by region  
+![image](https://github.com/user-attachments/assets/8af6da23-bab6-4637-8cc4-f6dff6fc478a)
+ 
 
 3. Power BI Dashboard:
    ![Dashboard](https://github.com/user-attachments/assets/448dde32-e4f4-4b2d-bc42-ec94bc653d11)
