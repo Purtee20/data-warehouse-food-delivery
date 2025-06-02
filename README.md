@@ -10,7 +10,7 @@ An end-to-end Data Warehouse solution for a food delivery business using **SQL**
 
 ## 🛠️ Tools & Technologies:
 - SQL (MySQL Workbench, Snowflake)
-- Python (Pandas, psycopg2)
+- Python (Pandas)
 - Power BI
 - DB Schema Design
 - Draw.io
@@ -21,8 +21,6 @@ An end-to-end Data Warehouse solution for a food delivery business using **SQL**
 - Customer tipping behavior
 - New vs. returning customer trends
 - Refund and discount analysis
-
-## 📁 Folder Structure
 
 
 
