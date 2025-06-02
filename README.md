@@ -34,7 +34,9 @@ FROM fact_orders f
 JOIN dim_customer c ON f.customer_id = c.customer_id  
 GROUP BY c.delivery_region;  
 
-3. Power BI Dashboard:  
+3. Power BI Dashboard:
+   ![Dashboard](https://github.com/user-attachments/assets/448dde32-e4f4-4b2d-bc42-ec94bc653d11)
+
    KPIs: Total orders (18K), revenue ($922K), refund rate (1%).  
    Trends: Orders over time, regional performance, ASAP vs. scheduled deliveries.  
    Insights:  
