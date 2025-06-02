@@ -34,71 +34,67 @@ GROUP BY c.delivery_region;
 
 3. Power BI Dashboard:  
    KPIs: Total orders (18K), revenue ($922K), refund rate (1%).  
-Trends: Orders over time, regional performance, ASAP vs. scheduled deliveries.  
-
-Insights:  
-- Mountain View has the highest tip average ($3.48).  
-- 20% of orders are ASAP → Potential for surge pricing.  
+   Trends: Orders over time, regional performance, ASAP vs. scheduled deliveries.  
+   Insights:  
+    - Mountain View has the highest tip average ($3.48).  
+    - 20% of orders are ASAP → Potential for surge pricing.  
 
 ## 🚀 How to Run This Project:  
-Prerequisites:
-MySQL, Python 3.8+, Power BI.
-Libraries: pandas, mysql-connector-python, tqdm.
+Prerequisites:  
+MySQL, Python 3.8+, Power BI.  
+Libraries: pandas, mysql-connector-python, tqdm.  
 
-Setup:
-bash
-git clone https://github.com/Purtee20/data-warehouse-food-delivery.git
-cd data-warehouse-food-delivery
-pip install -r requirements.txt  # Add a requirements file if missing
-Load Data:
+Setup:  
+bash  
+git clone https://github.com/Purtee20/data-warehouse-food-delivery.git  
+cd data-warehouse-food-delivery  
+pip install -r requirements.txt  # Add a requirements file if missing  
+Load Data:  
 
-bash
-python load_data.py  # Raw data → Staging
-python load_dw.py    # Staging → Data warehouse
-Analyze:
+bash  
+python load_data.py  # Raw data → Staging  
+python load_dw.py    # Staging → Data warehouse  
 
-Open dashboard.pbix in Power BI.
+Analyze:  
+Open dashboard.pbix in Power BI.  
+Connect to your MySQL DB for live updates.  
 
-Connect to your MySQL DB for live updates.
-
-## 🔍 Key Challenges & Solutions:
+## 🔍 Key Challenges & Solutions:  
 Challenge	Solution
 Messy datetime formats	Custom Python parser with error logging (parse_datetime()).
 High refund rates in Mountain View	Identified restaurant #23 as outlier (12% refund rate).
-Slow query performance	Added indexes on fact_orders.date_id (40% faster).
+Slow query performance	Added indexes on fact_orders.date_id (40% faster).  
 
-## 📈 Business Impact:
-- Cost Reduction: Refund analysis could save ~$15K/month by addressing outlier restaurants.
-- Revenue Growth: Targeted promotions for high-tip regions (Palo Alto).
-- Scalability: Pipeline handles 100K+ rows (tested with synthetic data).
+## 📈 Business Impact:  
+- Cost Reduction: Refund analysis could save ~$15K/month by addressing outlier restaurants.  
+- Revenue Growth: Targeted promotions for high-tip regions (Palo Alto).  
+- Scalability: Pipeline handles 100K+ rows (tested with synthetic data).  
 
-## 🛠️ Tools & Technologies:
-Data Warehousing: MySQL (Star Schema), Snowflake (compatible).
-ETL: Python (Pandas), SQL.
-Visualization: Power BI.
-Design: Draw.io (schema diagrams).
+## 🛠️ Tools & Technologies:  
+- Data Warehousing: MySQL (Star Schema), Snowflake (compatible).  
+- ETL: Python (Pandas), SQL.  
+- Visualization: Power BI.  
+- Design: Draw.io (schema diagrams).  
 
-## 📂 Repository Structure:
-data-warehouse-food-delivery/
-├── data/                    # Sample CSV files
-├── scripts/
-│   ├── load_data.py         # Raw data → Staging
-│   ├── load_dw.py           # Staging → DW (optimized)
-│   └── analysis.ipynb       # Advanced analytics (TODO: Add this!)
-├── sql/
-│   └── Food_Delivery_Data_Analytics.sql  # Schema + EDA queries
-├── docs/
-│   └── schema.drawio        # Schema diagram
-├── Dashboard.pbix           # Power BI dashboard
-└── README.md                # You are here!
+## 📂 Repository Structure:  
+data-warehouse-food-delivery/  
+├── data/                    # Sample CSV files  
+├── scripts/  
+│   ├── load_data.py         # Raw data → Staging  
+│   ├── load_dw.py           # Staging → DW (optimized)  
+│   └── analysis.ipynb       # Advanced analytics  
+├── sql/  
+│   └── Food_Delivery_Data_Analytics.sql  # Schema + EDA queries  
+├── docs/  
+│   └── schema.drawio        # Schema diagram  
+├── Dashboard.pbix           # Power BI dashboard  
+└── README.md                # You are here!  
 
-## 📞 Next Steps:
-Extend This Project:
-- Add real-time streaming (Kafka, Spark).
-- Deploy to cloud (AWS RDS, Snowflake).
+## 📞 Next Steps:  
+Extend This Project:  
+- Add real-time streaming (Kafka, Spark).  
+- Deploy to cloud (AWS RDS, Snowflake).  
 
-Connect:
-LinkedIn | Portfolio
-
-
+Connect:  
+LinkedIn | Portfolio  
 
