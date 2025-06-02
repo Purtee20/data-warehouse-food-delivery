@@ -89,8 +89,6 @@ data-warehouse-food-delivery/
 │   └── analysis.ipynb                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Advanced analytics  
 ├── sql/  
 │   └── Food_Delivery_Data_Analytics.sql           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Schema + EDA queries  
-├── docs/  
-│   └── schema.drawio                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Schema diagram  
 ├── Dashboard.pbix                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Power BI dashboard  
 └── README.md                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # You are here!  
 
@@ -100,5 +98,5 @@ Extend This Project:
 - Deploy to cloud (AWS RDS, Snowflake).  
 
 Connect:  
-LinkedIn | Portfolio  
+[LinkedIn](www.linkedin.com/in/purtee-bhise) | Portfolio  
 
