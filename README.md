@@ -78,7 +78,7 @@ Slow query performance	Added indexes on fact_orders.date_id (40% faster).
 
 ## 📂 Repository Structure:  
 data-warehouse-food-delivery/  
-├── data/                                          &nbsp;&nbsp;&nbsp; # Sample CSV files  
+├── data/                                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Sample CSV files  
 ├── scripts/  
 │   ├── load_data.py                                # Raw data → Staging  
 │   ├── load_dw.py                                  # Staging → DW (optimized)  
