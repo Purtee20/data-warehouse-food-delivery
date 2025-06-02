@@ -39,30 +39,38 @@ Key Metrics:
     - 20% of orders are ASAP → Potential for surge pricing.  
 
 ## 🚀 How to Run This Project:  
-Prerequisites:  
+_<u>Prerequisites:</u>_  
 MySQL, Python 3.8+, Power BI.  
-Libraries: pandas, mysql-connector-python, tqdm.  
 
-Setup:  
-bash  
+_<u>Libraries:</u>_  
+pandas, mysql-connector-python, tqdm.    
+
+_<u>Setup:<u>_  
+-> bash  
 git clone https://github.com/Purtee20/data-warehouse-food-delivery.git  
 cd data-warehouse-food-delivery  
 pip install -r requirements.txt  # Add a requirements file if missing  
 Load Data:  
 
-bash  
+-> bash  
 python load_data.py  # Raw data → Staging  
 python load_dw.py    # Staging → Data warehouse  
 
-Analyze:  
+_<u>Analyze:</u>_  
 Open dashboard.pbix in Power BI.  
 Connect to your MySQL DB for live updates.  
 
 ## 🔍 Key Challenges & Solutions:  
-Challenge	Solution
-Messy datetime formats	Custom Python parser with error logging (parse_datetime()).
-High refund rates in Mountain View	Identified restaurant #23 as outlier (12% refund rate).
-Slow query performance	Added indexes on fact_orders.date_id (40% faster).  
+_<u>Challenges:</u>_	 
+- Messy datetime formats	 
+- High refund rates in Mountain View 	
+- Slow query performance	   
+
+_<u>Solutions:</u>_  
+- Custom Python parser with error logging (parse_datetime()).
+- Identified restaurant #23 as outlier (12% refund rate).
+- Added indexes on fact_orders.date_id (40% faster).
+
 
 ## 📈 Business Impact:  
 - Cost Reduction: Refund analysis could save ~$15K/month by addressing outlier restaurants.  
@@ -73,7 +81,7 @@ Slow query performance	Added indexes on fact_orders.date_id (40% faster).
 - Data Warehousing: MySQL (Star Schema), Snowflake (compatible).  
 - ETL: Python (Pandas), SQL.  
 - Visualization: Power BI.  
-- Design: Draw.io (schema diagrams).  
+- Design: Draw.io, Power BI.(Schema Diagram)  
 
 ## 📂 Repository Structure:  
 data-warehouse-food-delivery/  
