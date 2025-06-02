@@ -11,7 +11,7 @@ Food delivery platforms need to analyze order trends, delivery efficiency, and c
 3) Identify high-value customers (e.g., frequent tippers).  
 
 ## 🛠️ Solution Architecture:    
-Star Schema Diagram (Replace with your actual diagram)  
+Star Schema Diagram 
 
 1. ETL Pipeline  
 Extract: Raw CSV data → Staging tables (staging_orders).  
