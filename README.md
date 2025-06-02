@@ -1,8 +1,8 @@
 ## 🍱 Food Delivery Data Warehouse & Analytics:  
 End-to-End Data Pipeline for Optimizing Delivery Performance  
-Power BI  
-MySQL  
-Python  
+-Power BI  
+-MySQL  
+-Python  
 
 ## 📌 Business Problem:  
 Food delivery platforms need to analyze order trends, delivery efficiency, and customer behavior to:  
