@@ -108,15 +108,15 @@ _<u>Solutions:</u>_
 ## 📂 Repository Structure:  
 ```
 data-warehouse-food-delivery/  
-├── data/                                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Sample CSV files  
+├── data/                                           # Sample CSV files  
 ├── scripts/  
-│   ├── load_data.py                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Raw data → Staging  
-│   ├── load_dw.py                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Staging → DW (optimized)  
-│   └── analysis.ipynb                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Advanced analytics  
+│   ├── load_data.py                                # Raw data → Staging  
+│   ├── load_dw.py                                  # Staging → DW (optimized)  
+│   └── analysis.ipynb                              # Advanced analytics  
 ├── sql/  
-│   └── Food_Delivery_Data_Analytics.sql           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Schema + EDA queries  
-├── Dashboard.pbix                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Power BI dashboard  
-└── README.md                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # You are here!  
+│   └── Food_Delivery_Data_Analytics.sql           # Schema + EDA queries  
+├── Dashboard.pbix                                 # Power BI dashboard  
+└── README.md                                      # You are here!  
 ```
 ## 🧑‍💻 Next Steps:  
 Extend This Project:  
