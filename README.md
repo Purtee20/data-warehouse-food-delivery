@@ -106,6 +106,7 @@ _<u>Solutions:</u>_
 - Design: Draw.io, Power BI.(Schema Diagram)  
 
 ## 📂 Repository Structure:  
+```
 data-warehouse-food-delivery/  
 ├── data/                                          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Sample CSV files  
 ├── scripts/  
@@ -116,7 +117,7 @@ data-warehouse-food-delivery/
 │   └── Food_Delivery_Data_Analytics.sql           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Schema + EDA queries  
 ├── Dashboard.pbix                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # Power BI dashboard  
 └── README.md                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # You are here!  
-
+```
 ## 🧑‍💻 Next Steps:  
 Extend This Project:  
 - Add real-time streaming (Kafka, Spark).  
