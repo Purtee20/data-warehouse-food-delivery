@@ -1,7 +1,7 @@
 ## 🍱 Food Delivery Data Warehouse & Analytics:  
 End-to-End Data Pipeline for Optimizing Delivery Performance  
 - Power BI  
-- MySQL  
+- SQL  
 - Python  
 
 ## 📌 Business Problem:  
